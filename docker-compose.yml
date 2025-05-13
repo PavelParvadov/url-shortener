@@ -1,0 +1,12 @@
+services:
+  postgres:
+    container_name: postgres_go
+    image: postgres
+    env_file:
+      - .env
+    environment:
+      POSTGRES_DB: link
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
