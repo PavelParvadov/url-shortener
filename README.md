@@ -9,7 +9,6 @@
 - PostgreSQL
 - Docker Compose
 - JWT
-- Clean architecture / layered structure
 
 ## Запуск приложения
 
